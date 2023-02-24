@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main_div">
+      <h2 class="header_content">Multiple Converter</h2>
+      <div class="divider"></div>
+
+      <div id="category">
+        <label for="select_category">Select Category</label>
+        <select name="select_category" id="select_category">
+          <option value="length">Length</option>
+          <option value="weight">Weight</option>
+          <option value="temperature">Temperature</option>
+        </select>
+      </div>
+
+      <div id="unit_table">
+        <div class="unit">
+          <input type="text" id="leftInput"/>
+          <select id="left_unit">
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="centimeter">Centimeter</option>
+            <option value="millimeter">Millimeter</option>
+            <option value="micrometer">Micrometer</option>
+            <option value="nanometer">Nanometer</option>
+          </select>
+        </div>
+        <div class="equal">=</div>
+        <div class="unit">
+          <input type="text" id="rightInput"/>
+          <select id="right_unit">
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="centimeter">Centimeter</option>
+            <option value="millimeter">Millimeter</option>
+            <option value="micrometer">Micrometer</option>
+            <option value="nanometer">Nanometer</option>
+          </select>
+        </div>
+      </div>
+      <div id="formula">
+        <h4>Formula:</h4>
+        <p id="fmdetails">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit esse magni cumque architecto porro nulla reprehenderit deserunt. Assumenda, quibusdam eveniet.</p>
+      </div>
+    </div>
+    <script src="./ps.js"></script>
+  </body>
+</html>
